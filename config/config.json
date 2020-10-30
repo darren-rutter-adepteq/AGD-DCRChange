@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dcr-change-requests-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dcrChangeRequests/DcrChangeRequestsWebPart.js",
+          "manifest": "./src/webparts/dcrChangeRequests/DcrChangeRequestsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DcrChangeRequestsWebPartStrings": "lib/webparts/dcrChangeRequests/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

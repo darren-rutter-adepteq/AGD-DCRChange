@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "agd-dcr-change-client-side-solution",
+    "id": "68934206-84b8-44c1-94e2-92d903dec42a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/agd-dcr-change.sppkg"
+  }
+}
